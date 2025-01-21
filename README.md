@@ -32,7 +32,7 @@ The program replicates the behavior of the shell command:
 < file1 cmd1 | cmd2 > file2  
 ```
 
-## Examples
+### Examples
 1. Count the number of lines in a file:
 ```
 ./pipex infile "cat -e" "wc -l" outfile
